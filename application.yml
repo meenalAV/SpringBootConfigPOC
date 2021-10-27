@@ -4,4 +4,5 @@ config:
     name: payload
   billing:
     id: 2
-    name: billing2
+    name: billing
+    desc: billingDetails
