@@ -5,4 +5,4 @@ config:
   billing:
     id: 2
     name: billing
-    desc: billingDetails
+    desc: billingDetails2
