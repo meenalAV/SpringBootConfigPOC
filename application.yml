@@ -6,6 +6,11 @@ config:
     identifier: id
     dept:
       deptName: dummyDept
+      config: {
+        }
+    config:
+      id: '123'
+      port: '8080'
   billing:
     id: 2
     name: billing
