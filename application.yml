@@ -4,7 +4,6 @@ config:
     name: payload
     details: payload details
     identifier: id
-    test
     dept:
       deptName: dummyDept
   billing:
