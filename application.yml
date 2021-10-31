@@ -1,9 +1,10 @@
 config:
   payload:
-    id: '55'
+    id: 55
     name: payload
     details: payload details
     identifier: id
+    test
     dept:
       deptName: dummyDept
   billing:
