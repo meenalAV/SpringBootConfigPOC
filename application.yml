@@ -3,6 +3,9 @@ config:
     id: 1
     name: payload
     details: payload details
+    identifier: id
+    dept:
+      deptName: dummyDept
   billing:
     id: 2
     name: billing
