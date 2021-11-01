@@ -7,6 +7,8 @@ config:
     spring:
       profiles:
         active: dev
+      dataSource:
+        url: jdbc:mysql://localhost/test
     server:
       port: 8880
   billing:
