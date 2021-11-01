@@ -1,17 +1,21 @@
 config:
   payload:
-    id: 55
-    name: payload
-    details: payload details
-    identifier: id
-    dept:
-      deptName: dummyDept
-      config: {
-        }
-    config:
-      id: '123'
-      port: '8081'
+    logging:
+      level:
+        org.springframework: ERROR
+        com.payload: DEBUG
+    spring:
+      profiles:
+        active: dev
+    server:
+      port: 8880
   billing:
-    id: 2
-    name: billing
-    desc: billingDetails
+    logging:
+      level:
+        org.springframework: ERROR
+        com.biling: ERROR
+    spring:
+      profiles:
+        active: dev
+    server:
+      port: 8881
